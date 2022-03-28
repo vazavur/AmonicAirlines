@@ -1,0 +1,42 @@
+﻿<Window x:Class="AmonicAirlines.EditRoleWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:AmonicAirlines"
+        mc:Ignorable="d"
+        Title="Edit role" Width="550" Height="400" WindowStartupLocation="CenterScreen" ResizeMode="NoResize" Loaded="Window_Loaded" Closed="Window_Closed">
+    <StackPanel Width="450">
+        <Grid Margin="0 60 0 10">
+            <TextBlock Text="Email" HorizontalAlignment="Left" FontSize="14"/>
+            <TextBox x:Name="tbEmail" HorizontalAlignment="Right" Width="350" TextBlock.FontSize="14" IsEnabled="False"/>
+        </Grid>
+
+        <Grid Margin="0 10 0 10">
+            <TextBlock Text="First name" HorizontalAlignment="Left" FontSize="14"/>
+            <TextBox x:Name="tbFirstName" HorizontalAlignment="Right" Width="350" TextBlock.FontSize="14" IsEnabled="False"/>
+        </Grid>
+
+        <Grid Margin="0 10 0 10">
+            <TextBlock Text="Last name" HorizontalAlignment="Left" FontSize="14"/>
+            <TextBox x:Name="tbLastName" HorizontalAlignment="Right" Width="350" TextBlock.FontSize="14" IsEnabled="False"/>
+        </Grid>
+
+        <Grid Margin="0 10 0 10">
+            <TextBlock Text="Office" HorizontalAlignment="Left" FontSize="14"/>
+            <TextBox x:Name="tbOffice" HorizontalAlignment="Right" Width="350" TextBlock.FontSize="14" IsEnabled="False"/>
+        </Grid>
+
+        <Grid Margin="0 15 0 10" Width="220">
+            <TextBlock Text="Role" HorizontalAlignment="Left" FontSize="14" VerticalAlignment="Center"/>
+            <RadioButton x:Name="rbAdmin" Width="120" Content="Administrator" HorizontalAlignment="Right" Margin="0 0 0 20" FontSize="14"/>
+            <RadioButton x:Name="rbUser" Width="120" Content="User" HorizontalAlignment="Right" Margin="0 20 0 0" FontSize="14"/>
+        </Grid>
+
+        <Grid Width="300" Margin="0 15 0 10">
+            <Button x:Name="btnApply" Content="Apply" FontSize="14" Width="130" HorizontalAlignment="Left" Click="btnApply_Click"/>
+            <Button x:Name="btnCancel" Content="Cancel" FontSize="14" Width="130" HorizontalAlignment="Right" Click="btnCancel_Click"/>
+        </Grid>
+
+    </StackPanel>
+</Window>
