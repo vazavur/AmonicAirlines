@@ -16,7 +16,7 @@
 * Операционная система Windows 7 Home Basic или выше
 * Свободное место на накопителе 10 ГБ
 
-# Скриншоты
+# Скриншоты (INT версия)
 ## Окно авторизации
 ![image](https://user-images.githubusercontent.com/55960760/160390031-6dd72649-c6d2-40bf-ab6b-34dfba7a3cf5.png)
 
